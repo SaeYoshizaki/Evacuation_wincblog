@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { Article } from '../../types';
 import Component from './_articleComponent';
-import './articleList.css';
+import './_articleList.css';
 
 type ArticleListProps = {
   articles: Article[];
